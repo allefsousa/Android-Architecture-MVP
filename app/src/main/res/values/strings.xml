@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidModelViewPresenter</string>
+    <string name="hintlogin">Usuario</string>
+    <string name="hintsenha">Senha</string>
 </resources>
