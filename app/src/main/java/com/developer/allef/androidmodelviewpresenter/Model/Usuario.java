@@ -2,6 +2,7 @@ package com.developer.allef.androidmodelviewpresenter.Model;
 
 /**
  * Created by Allef on 05/02/2017.
+ * classe de modelo
  */
 
 public class Usuario {
