@@ -6,6 +6,7 @@ import com.developer.allef.androidmodelviewpresenter.Model.Usuario;
  * Created by Allef on 05/02/2017.
  * Interface para ser implementado os metodos no presentar
  * sem ter conehcimento se é um fragment ou uma activity
+ * mvp
  *
  *
  *
