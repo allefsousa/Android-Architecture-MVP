@@ -1,17 +1,19 @@
 language: android
 jdk: oraclejdk8
-env:
-  matrix:
-    - ANDROID_TARGET=android-22 ANDROID_ABI=armeabi-v7a
 android:
   components:
-  - platform-tools
-  - tools
-  - build-tools-25.0.2
-  - android-25
-  - extra-android-m2repository
-  - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
+    - tools
+    - android-24
+    - build-tools-24.0.1
+    - extra-google-m2repository
+    - extra-android-m2repository
+
+  licenses:
+    - android-sdk-license-.+
+
+before_install:
+  - echo yes | android update sdk --all --filter build-tools-24.0.1 --no-ui --force
 
 script:
-  # Unit Test
-  - ./gradlew test
+    - echo "Travis branch is $TRAVIS_BRANCH"
+    - ./gradlew clean test
