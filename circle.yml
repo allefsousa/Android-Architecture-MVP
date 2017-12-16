@@ -1,0 +1,21 @@
+#
+# Configuração de compilação para Circle CI
+#
+
+geral :
+    artefatos :
+        - / home / ubuntu / your-app-name / app / build / outputs / apk /
+
+máquina :
+    ambiente :
+        ANDROID_HOME : / usr / local / android-sdk-linux
+
+dependências :
+    substituir :
+        - echo y | atualização do android sdk --no-ui - todas - ferramentas de filtro, ferramentas de plataforma, ferramentas de compilação-19.1.0, android-19, extra-google-m2repository, extras-google-google_play_services, suporte extra-android
+        - ANDROID_HOME = / usr / local / android-sdk-linux ./gradlew dependencies
+
+teste :
+    substituir :
+        - (./gradlew assembly) :
+            tempo limite : 360
