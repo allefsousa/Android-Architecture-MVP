@@ -36,12 +36,6 @@ public class MainActivity extends AppCompatActivity implements Login.View{
     TextInputLayout senhainput;
     //endregion
 
-
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
