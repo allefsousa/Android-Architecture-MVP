@@ -1,7 +1,10 @@
 # Designpattern-MVP
-Padrão de arquitetura de software Mobile Android Model View Presenter 
+Padrão de arquitetura de software Mobile Android Model View Presenter
 
-[![Build Status](https://travis-ci.org/allefsousa/Designpattern-MVP.svg?branch=master)](https://travis-ci.org/allefsousa/Designpattern-MVP)
+
+
+
+[![Build Status](https://travis-ci.org/allefsousa/Designpattern-MVP.svg?branch=master)](https://travis-ci.org/allefsousa/Designpattern-MVP) [![codebeat badge](https://codebeat.co/badges/aaf5faa3-06d0-42c2-a25a-999e38046773)](https://codebeat.co/projects/github-com-allefsousa-androidmvp-master)
 
 Esta é um exemplo de App que faz uso da arquitetura MVP. A amostra tem como objetivo:
 Realizar um LOGIN utilizando  a arquitetura MVP.
